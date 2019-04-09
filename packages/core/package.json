@@ -1,0 +1,20 @@
+{
+  "name": "@org/core",
+  "version": "1.0.0",
+  "description": "Core package",
+  "author": "h3llrais3r",
+  "license": "ISC",
+  "private": true,
+  "scripts": {
+    "clean": "rimraf ./build",
+    "build": "tsc -b .",
+    "test": "mocha -r ts-node/register -r tsconfig-paths/register ./test/**/*.test.ts",
+    "tslint": "tslint -c ./tslint.json -p ./tsconfig.json"
+  },
+  "dependencies": {
+    "@org/common": "1.0.0"
+  },
+  "devDependencies": {
+    "mocha": "6.1.2"
+  }
+}

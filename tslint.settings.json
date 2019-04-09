@@ -1,0 +1,20 @@
+{
+  "defaultSeverity": "error",
+  "extends": [
+    "tslint:recommended"
+  ],
+  "jsRules": {},
+  "rules": {
+    "no-console": false, // Allow console statements
+    "interface-name": false, // No need to start interface with I prefix
+    "max-line-length": false, // No max line length
+    "object-literal-sort-keys": false, // No need to sort keys alphabetically
+    "quotemark": [
+      true,
+      "single", // Force single quote
+      "avoid-escape"
+    ],
+    "trailing-comma": false // No need for trailing comma
+  },
+  "rulesDirectory": []
+}

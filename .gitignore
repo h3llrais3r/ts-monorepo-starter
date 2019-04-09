@@ -1,0 +1,22 @@
+# Dependencies
+node_modules
+
+# Build folders
+build
+
+# Dist folders
+dist
+
+# IDE - VSCode
+.vscode/*
+!.vscode/settings.json
+!.vscode/tasks.json
+!.vscode/launch.json
+!.vscode/extensions.json
+
+# History
+.history
+
+# File patterns
+*.tsbuildinfo
+*.log
